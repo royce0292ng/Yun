@@ -162,4 +162,4 @@ cython_debug/
 .idea/
 
 # Dataset
-chinese_dataset/
+data/
