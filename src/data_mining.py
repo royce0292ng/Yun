@@ -133,12 +133,11 @@ def scrape_char_eng_meaning(start_char, end_char):
 
 # Example usage:
 if __name__ == "__main__":
-    # Define the range of characters to scrape (e.g., start from 鵂)
+    # Define the range of characters to scrape (e.g., start from 一)
     start_char = int('4E00', 16)
     end_char = int('9FFF', 16)  # Adjust to the desired range
-    # scrape_char_eng_meaning(start_char, end_char)
-    character_image("齙")
-    character_image("龤")
+    scrape_char_eng_meaning(start_char, end_char)
+
 
 
 
